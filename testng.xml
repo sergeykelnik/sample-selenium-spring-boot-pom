@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Selenium Testing" parallel="tests">
+    <!--<listeners>
+        <listener class-name="com.guru99.spring.libraries.AllureListener"></listener>
+    </listeners>-->
+    <test name="Chrome Test">
+        <!--<parameter name="browser" value="Chrome"/>-->
+        <classes>
+            <class name="com.Guru99POMSeleniumSpringBoot.SpringBasicApplicationTests"/>
+        </classes>
+    </test>
+
+    <!--<test name="Edge Test">
+        <parameter name="browser" value="Edge"/>
+        <classes>
+            <class name="Tests"/>
+        </classes>
+    </test>-->
+
+</suite>
